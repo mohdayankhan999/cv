@@ -1,146 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <title>Mohammad Ayan Khan</title>
+  <script src="scripts/script.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="icons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing = "50">
-    <thead>
-      <tr >
-        <td >
-          <img src="images/pp-ayan.png" alt="Mohammad Ayan Khan Profile Picture" height="250" width="250">
-        </td>
-        <td>
-          <table >
-            <tr>
-              <td>
-                <h1>Mohammad Ayan Khan</h1>
-              </td>
-            </tr>
-            <tr>
-                <td><em>Underegrad</em></td>
-            </tr>
-            <tr>
-              <td>
-                <p>I am an undergrad with excellent Problem Solving skills and a fast learner.</p>
-              </td>
-            </tr>
+  <nav class="navBar">
+    <a href="#"><img class="navBarIcon" src="images/profile/profilePicRound.png" alt=""></a>
 
-          </table>
-        </td>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-    <tfoot>
+    <a class="menu menu-home" href="index.html">Home</a>
+    <a class="menu" href="about.html">About</a>
+    <a class="menu" href="projects.html">Projects</a>
+  </nav>
 
-    </tfoot>
-  </table>
+  <div class="top-container">
+    <img id="bird-gif" class="top-bird" src="images/birds/1.png" alt="bird-img">
+    <h1 class="NameTop">I'm Ayan.</h1>
+    <h2 class="NameTop">A Programmer.</h2>
+    <img class="mountain" src="images/background/ChakkreeChntakadPixabay.png" alt="mountains-img">
+  </div>
 
 
-  <hr size='3' noshade>
-  <br>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/profile/profilePicRound.png" alt="">
+      <h2>Hello.</h2>
+      <p class="intro">I'm Mohammad Ayan khan.A programmer, and a problem solver.
+        While solving problems, I learned that there are always problems and their solutions;
+        So, How may I be of service to You?</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-icon-left" src="images/skills/pythonIcon.png" alt="programming">
+        <h3>Python Problem Solving</h3>
+        <p>I have a hobby of solving problems on Data Structures And Algorithms on various platforms since my first year of college.One of my favorite site is ProjectEuler :)</p>
+        <p>So why don't you Add me as a friend on<a href="https://projecteuler.net/" target="_blank"> Project Euler</a>? You'll need this<button class="copyBtn" onclick="copyText()">Copy Key.</button></p>
 
 
-  <h2>My Education</h2>
-  <table cellspacing="10">
-    <thead >
-      <th>Institution</th>
-      <th>Year</th>
-      <th>Grade</th>
-    </thead>
-    <tbody>
-      <tr >
-        <td>Bachelor Of Technology in Computer Science Engineering</td>
-      </tr>
-      <tr>
-        <td>
-          <p><a href="https://lnct.ac.in/">Lakshmi Narain College of Technology, Bhopal MP</a></p>
-        <td><em>2019-2023</em></td>
-        <td>CGPA : 9.1</td>
-        </td>
-      </tr>
-      <tr>
-        <td>School XII </td>
-      </tr>
-      <tr>
-        <td><a href="http://www.mrpssagar.com/">Mahar Regiment Public School, Sagar MP</a></td>
-        <td><em>2018-2019</em></td>
-        <td>Percent : 78.8</td>
-      </tr>
-      <tr>
-        <td>School X</td>
-      </tr>
-      <tr>
-        <td><a href="http://www.mrpssagar.com/">Mahar Regiment PUblic School, Sagar MP</a></td>
-        <td><em>2016-2017</em></td>
-        <td>CGPA : 8.6</td>
-      </tr>
-    </tbody>
-    <tfoot>
-    </tfoot>
-  </table>
-  <hr size='3' noshade>
+      </div>
+      <div class="skill-row">
+        <img class="skill-icon-right" src="images/skills/developerIcon.png" alt="development">
+        <h3>Web Development</h3>
+        <p>To showcase my creations, I prefer HTML/CSS/JS. I designed my first site in High school, it was a music library, and since then, I got addicted to listening to music.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-icon-left" src="images/skills/deepLearningIcon.png" alt="machine learning">
+        <h3>Machine Learning</h3>
+        <p>Machine Learning models are powerful tools and I like to play with them !</p>
+        <a href="https://sentiment-detection-nlp.herokuapp.com/" target="_blank">NLP for Sentiment Detection</a>
+      </div>
+      <div class="skill-row">
+        <img class="skill-icon-right" src="images/skills/typingIcon.png" alt="typist">
+        <h3>Touch Typing</h3>
+        <p>wanna race? Check out my site and try to make a record.</p>
+        <a href="">Click me !</a>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3></h3>
+      <p class="end-contact-message">I would love to talk about unique problems and different approaches to solve them.</p>
+      <a class="btn" href="mailto:mohdayankhan999@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mohammadayankhan999/" target="_blank"><img class="social-media-icon" src="images/socialMedia/linkedinLogo.png" alt=""></a>
+    <a class="footer-link" href="https://leetcode.com/mohdayankhan999/" target="_blank"><img class="social-media-icon" src="images/socialMedia/LeetCodeLogo.png" alt=""></a>
+    <a class="footer-link" href="https://hackerrank.com/mohdayankhan999/" target="_blank"><img class="social-media-icon" src="images/socialMedia/hackerRankLogo.png" alt=""></a>
+    <p>© 2022 Mohammad Ayan Khan.</p>
+    <!-- <a href="https://www.flaticon.com/free-icons/typing" title="typing icons">Typing icons created by Flat Icons - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/deep-learning" title="deep learning icons">Deep learning icons created by Becris - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/developer" title="developer icons">Developer icons created by Pixel perfect - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a> -->
+  </div>
 
-  <h2>Projects</h2>
-
-  <table cellspacing = "10">
-    <thead>
-      <th>Name</th>
-      <th>Source</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sentiment Detection
-          <p>Preidect if a statement is positive or negative<br>using a machine learning model</p>
-        </td>
-        <td><a href="https://sentiment-detection-nlp.herokuapp.com/">Link</a></td>
-        <td><a href="https://github.com/AyanKhan2077/sentiment-detection-nlp">source code</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/AyanKhan2077/quizzler">Quizzler</a>
-          <p>-Console based quiz system</p>
-        </td>
-        <td>Link</td>
-      </tr>
-      <tr>
-        <td> <a href="https://github.com/AyanKhan2077/Tic-Tac-Toe">TicTacToi</a>
-          <p>-Play TicTacToi with a computer on various difficulties.</p>
-        </td>
-        <td>Link</td>
-      </tr>
-    </tbody>
-    <tfoot>
-    </tfoot>
-  </table>
-  <hr size='3' noshade>
-  <h2>Skills</h2>
-  <table>
-    <tr>
-      <td>Python</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-
-    <tr>
-      <td>Web Developmet</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-
-    <tr>
-      <td>Chess</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-
-  </table>
-  <hr size='3' noshade>
-
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact me</a>
 </body>
 
 </html>
