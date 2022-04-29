@@ -43,6 +43,7 @@ hr{
 
 }
 .navBar{
+  visibility: 0;
   padding-top: 0.25rem;
   font-size: 1.25rem;
   text-align: right;
