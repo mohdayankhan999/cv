@@ -7,7 +7,7 @@ I'm Mohammad Ayan khan and this is my record.
 
 
 
-
+ <a href="[https://www.flaticon.com/free-icons/typing](https://mohdayankhan999.github.io/cv/)" title="typing icons">Visit site</a>
 
 
 
